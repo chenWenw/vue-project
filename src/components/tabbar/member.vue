@@ -1,6 +1,6 @@
 <template>
   <div>
-    <router-view></router-view>
+    <h1>member</h1>
   </div>
 </template>
 
@@ -8,7 +8,6 @@
 export default {
   data () {
     return { 
-
     }
   }
 }

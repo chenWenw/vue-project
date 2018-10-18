@@ -11,7 +11,13 @@ Vue.use(MintUI)
 //引入mui
 import './assets/mui/css/mui.min.css'
 Vue.config.productionTip = false
+//导入mui购物车的样式
+import './assets/mui/css/icons-extra.css'
 
+
+//导入vue-resource
+import vueResource from 'vue-resource'
+Vue.use(vueResource)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
